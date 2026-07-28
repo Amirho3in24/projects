@@ -37,7 +37,7 @@ BEGIN
         SellId      INT,  
         ProductId   INT,  
         UnitPrice   decimal(18,2),  
-        Qty         decimal(18,2)  
+        Qty         INT  
     );  
   
     INSERT INTO #FilteredSellDetail (SellId, ProductId, UnitPrice, Qty)  
