@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dbo].[ProductCardex]    ---کاردکس کالا بر اساس فروش،برگشت از فروش،فاکتور خرید و برگشت ار خید              
+CREATE PROCEDURE [dbo].[ProductCardex]    ---کاردکس کالا بر اساس فروش،برگشت از فروش،فاکتور خرید و برگشت ار خرید              
    (                  
       @ProductId INT ,                  
       @StartDate VARCHAR(10) ,                  
